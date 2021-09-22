@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet" />
+    <script src="{{ url_for('static', filename='2_day_forecast.js') }}"></script>
+    <script src="{{ url_for('static', filename='2_day_img1.js') }}"></script>
+    <script src="{{ url_for('static', filename='2_day_img2.js') }}"></script>
+    <script src="{{ url_for('static', filename='2_hl.js') }}"></script>
+    <script src="{{ url_for('static', filename='current_temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='current_temp_img.js') }}"></script>
+    <script src="{{ url_for('static', filename='date.js') }}"></script>
+    <script src="{{ url_for('static', filename='stock_price1.js') }}"></script>
+    <script src="{{ url_for('static', filename='stock_price2.js') }}"></script>
+    <script src="{{ url_for('static', filename='stock1_%change.js') }}"></script>
+    <script src="{{ url_for('static', filename='stock2_%change.js') }}"></script>
+    <script src="{{ url_for('static', filename='time.js') }}"></script>
+    <script src="{{ url_for('static', filename='today_hl.js') }}"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9"><span id="date"></span> <br /><h1 id="current_time"></h1></div>
+            <div id="temp" class="col"><span id="today_hl"></span><br /><h1 class="float-start" id="current_temp"></h1><img id="current_img" class="float-center" src="" /></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-9">
+                Stocks<hr width="33%" /><br />
+                <table>
+                    <tr>
+                        <td class="col-3"><span id="stock1">TSLA</span><br /><br /><span id="stock2">DIA</span></td>
+                        <td class="col-3"><span id="stock1_p"></span><br /><br /><span class="text-center" id="stock2_p"></span></td>
+                        <td class="col-3"><span id="stock1_%"></span><br /><br /><span id="stock2_%"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="2_day" class="col">
+                2-Day Forecast<hr />
+                <table>
+                    <tr>
+                        <td class="col-3" id="2_day_forecast"></td>
+                        <td class="col-3"><img id="2img_1" /><br /><img id="2img_2" /></td>
+                        <td class="col-3" id="2_day_hl"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col text-center"><h1>Hello Sexy Beast!</h1></div>
+        </div>
+        <div class="row" id="music">
+            <div class="col align-self-end">X Maroon 5<br />X Payphone<br /><audio controls><source src="" type="audio/ogg"><source src="" type="audio/mpeg">Your browser does not support the audio element.</audio></div>
+        </div>
+    </div>
+</body>
+</html>

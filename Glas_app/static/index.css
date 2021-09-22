@@ -1,0 +1,11 @@
+body {
+    background-color:black;
+    color: floralwhite;
+}
+
+div#music {
+    position: absolute;
+    bottom: 0;
+}
+
+

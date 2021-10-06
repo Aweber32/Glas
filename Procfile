@@ -1,0 +1,1 @@
+web: gunicorn python Glas_app\Glas_flask.py 

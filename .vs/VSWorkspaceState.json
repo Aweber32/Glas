@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Glas_app",
-    "\\venv",
-    "\\venv\\Lib",
-    "\\venv\\Lib\\site-packages"
+    "\\venv"
   ],
-  "SelectedNode": "\\Glas_app\\Glas_flask.py",
+  "SelectedNode": "\\Procfile",
   "PreviewInSolutionExplorer": false
 }

@@ -1,1 +1,1 @@
-web: gunicorn Glas:app
+web: gunicorn --workers=1 Glas:app

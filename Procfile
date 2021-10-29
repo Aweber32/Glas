@@ -1,1 +1,1 @@
-web: gunicorn --workers=1 app:Glas_flask
+web: gunicorn --workers=1 app:app

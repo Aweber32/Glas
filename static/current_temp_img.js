@@ -1,4 +1,4 @@
-fetch('http://api.weatherapi.com/v1/current.json?key=6d6d16369d2f4aeca98190312211207&q=Louisville&aqi=no')
+fetch('https://api.weatherapi.com/v1/current.json?key=6d6d16369d2f4aeca98190312211207&q=Louisville&aqi=no')
     .then(function (response) {
         return response.json();
     })

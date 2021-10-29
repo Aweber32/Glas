@@ -27,6 +27,7 @@ function getDate() {
         5: "Friday",
         6: "Saturday",
     }
-    document.getElementById('date').innerHTML = day[dname] + ", " + month[cMonth] + " " + cDay + " " + cYear
+    document.getElementById('date').innerHTML = day[dname] + ", " + month[cMonth] + " " + cDay + " " + cYear;
 }
-setInterval(getDate, 60000)
+setTimeout(getDate, 10000)
+setInterval(getDate, 1800000)

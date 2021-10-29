@@ -1,4 +1,4 @@
-window.addEventListener('load', function stock1_p() {
+function stock1_p() {
     var stock1 = document.getElementById('stock1').textContent;
     var url = 'https://finnhub.io/api/v1/quote?symbol=' + stock1 + '&token=c3qrm8aad3i98m4ia7kg'
     fetch(url)
@@ -13,4 +13,7 @@ window.addEventListener('load', function stock1_p() {
         .catch(function (err) {
             document.getElementById('stock1_p').innerHTML = 'Fail'
         });
-})
+}
+
+setTimeout(stock1_p, 10000)
+setInterval(stock1_p, 300000)

@@ -22,7 +22,8 @@ function getTime() {
         hour = PMhour[hour]
     }
     if (min < 10) {
-        var min_1_9 = {
+        var min_0_9 = {
+            0: '00',
             1: '01',
             2: '02',
             3: '03',
@@ -33,12 +34,12 @@ function getTime() {
             8: '08',
             9: '09',
         }
-        min = min_1_9[min]
+        min = min_0_9[min]
     }
     let time = hour + ":" + min + " " + day;
     document.getElementById('current_time').innerHTML = time
 }
-setInterval(getTime, 6000)
+setInterval(getTime, 10000)
 
 
 

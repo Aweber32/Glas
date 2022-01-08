@@ -24,5 +24,5 @@ function stock2_p() {
         });
 }
 
-setInterval(stock2_p, 11000)
+setTimeout(stock2_p, 11000)
 setInterval(stock2_p, 300000)

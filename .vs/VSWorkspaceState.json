@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static"
   ],
-  "SelectedNode": "\\Glas_flask.py",
+  "SelectedNode": "\\static\\current_temp.js",
   "PreviewInSolutionExplorer": false
 }

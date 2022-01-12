@@ -19,6 +19,7 @@
     <script src="{{ url_for('static', filename='stock2_%change.js') }}"></script>
     <script src="{{ url_for('static', filename='time.js') }}"></script>
     <script src="{{ url_for('static', filename='today_hl.js') }}"></script>
+    <script src="{{ url_for('static', filename='news_headlines.js') }}"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -49,7 +50,7 @@
             </div>
         </div>
         <div class="row py-5">
-            <div class="col text-center"><h1>Hello Sexy Beast!</h1></div>
+            <div class="col text-center" id="news_headline"></div>
         </div>
         <div class="row" id="music">
             <div class="col align-self-end">X Maroon 5<br />X Payphone<br /><audio controls><source src="" type="audio/ogg"><source src="" type="audio/mpeg">Your browser does not support the audio element.</audio></div>

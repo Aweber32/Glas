@@ -20,7 +20,7 @@ function stock1_p() {
             document.getElementById('stock1_%').innerHTML = '$' + dif.toFixed(2) + ' ' + '(' + per_change.toFixed(2) + '%' + ')'
         })
         .catch(function (err) {
-            document.getElementById('stock1_%').innerHTML = 'Fail'
+            document.getElementById('stock1_%').innerHTML = 'Loading...'
         });
 }
 
